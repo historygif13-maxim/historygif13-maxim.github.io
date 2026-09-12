@@ -1,3 +1,20 @@
-remote_theme: pages-themes/midnight@v0.2.0
+# Название сайта
+title: VCI-BOT
+
+# Описание
+description: >
+  ИИ-бот для Steam Chat на Python,
+  использующий локальные нейросети через Ollama.
+
+# Тема GitHub Pages
+theme: jekyll-theme-hacker
+
+# Настройки GitHub Pages
+markdown: kramdown
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-seo-tag
+
+# Настройки сайта
+show_downloads: true
+github:
+  is_project_page: true
